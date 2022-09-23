@@ -10,3 +10,6 @@ elsif number > 100
 else
     puts "you have not choicen a number between 0 to 100"
 end
+
+
+
