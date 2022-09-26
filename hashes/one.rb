@@ -3,8 +3,7 @@ family = {  uncles: ["bob", "joe", "steve"],
     brothers: ["frank","rob","david"],
     aunts: ["mary","sally","susan"]
   }
-  new_array = []
-family.select do |key, val| 
-    new_array.push(val)
-end
-p new_array
+
+  emediate_family = family.select do |k, v|
+  end
+  p emediate_family
